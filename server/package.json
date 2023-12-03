@@ -1,0 +1,23 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "This is lab 5 of CS 554",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gundeep Singh Saluja 20005427",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "axios": "^1.3.5",
+    "connect-redis": "^7.0.1",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.22",
+    "redis": "^4.6.5",
+    "uuidv4": "^6.2.13"
+  }
+}
